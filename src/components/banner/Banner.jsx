@@ -10,8 +10,11 @@ export default function Banner() {
 	useEffect(() => {
 		if (location.pathname === '/about') {
 			setAboutPage(true)
-		};
-	}, [])
+		} else {
+			setAboutPage(false)
+		}
+	}, [location.pathname])
+	
 
 	return (
 		<section className={aboutPage ? 'banner_about' : 'banner'}>

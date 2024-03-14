@@ -9,6 +9,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     aspect-ratio: 16/9;
+    max-height: 415px;
     @media screen and (max-width: 650px){
         margin: 20px auto;   
     }
