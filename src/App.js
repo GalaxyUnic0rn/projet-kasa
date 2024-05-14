@@ -8,7 +8,7 @@ import Footer from './components/footer/Footer';
 
 
 const App = () => (
-	<Router>
+	<Router basename="/projet-kasa">
 		<Header />
 		<Routes>
 			<Route path='/' element={<Home />} />
